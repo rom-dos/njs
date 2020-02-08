@@ -1,0 +1,36 @@
+{
+  "name": "njs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --verbose | snazzy || exit 0",
+    "fix": "standard --fix",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@testing-library/react": "^9.4.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
